@@ -39,6 +39,12 @@ while True:
             votes[vote - 1] += 1
             voted_users.add(voter_id)
             print("Vote recorded successfully!")
+            print("\n--- Live Results ---")
+            total_votes = sum(votes)
+            for i, candidate in enumerate(candidates):
+                percentage = votes[i] / total_votes * 100
+                print(f"{candidate}: {votes[i]} votes ({percentage:.2f}%)")
+            print("Total Votes:", total_votes)
         else:
             print("Invalid candidate!")
 
