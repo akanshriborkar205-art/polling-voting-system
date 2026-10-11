@@ -5,8 +5,8 @@ Python program jo lists ki help se votes record karta hai, duplicate voting rokt
 
 ## Installation / How to Run
 1. Python 3 install karo
-2. git clone https://github.com/your-username/polling-voting-system.git
-3. python aapki_file.py
+2. git clone https://github.com/akanshriborkar205-art/Online-Polling-System
+3. python voting_system.py
 
 ## Logic Summary
 - candidates[] mein naam, votes[] mein counts (same index)
