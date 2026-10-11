@@ -15,7 +15,7 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        voter_id = input("Enter Voter ID: ").strip()
+        voter_id = input("Enter Voter ID: ").strip().lower()
 
         if not voter_id:
             print("Voter ID cannot be empty!")
